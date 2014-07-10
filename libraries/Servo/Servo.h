@@ -61,9 +61,9 @@
 
 #define _useTimer1 
 #define _useTimer3
-#define _useTimer4 
-typedef enum { _timer1, _timer3, _timer4, _Nbr_16timers } timer16_Sequence_t ;
-
+#define _useTimer4
+#define _useTimer5
+typedef enum { _timer1, _timer3, _timer4, _timer5, _Nbr_16timers } timer16_Sequence_t ;
 #elif defined(__AVR_ATmega32U4__)  
 #define _useTimer1 
 typedef enum { _timer1, _Nbr_16timers } timer16_Sequence_t ;
